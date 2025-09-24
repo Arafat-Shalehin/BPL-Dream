@@ -8,8 +8,8 @@ const AvailablePlayers = ({playersPromise}) => {
 
     return (
         <>
-        <div className='max-w-[1650px] w-full lg:mt-40 mx-auto
-        grid md:grid-cols-3 grid-cols-1 gap-10 md:p-0 p-5'>
+        <div className='max-w-[1650px] w-full lg:mt-10 xl:mt-10 mt-5 mx-auto
+        grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-10 p-5'>
             {
                 playerData.map(player => 
                     <div key={player.id} className="card bg-base-100 shadow-md p-5">
