@@ -11,15 +11,17 @@ const fetchPlayers = async () => {
 
 }
 
+const playersPromise = fetchPlayers();
+
 const App = () => {
 
   const [toggle, setToggle] = useState(true);
 
-  const playersPromise = fetchPlayers();
+  const [availableBalance, setAvailableBalance] = useState(60000000);
 
   return (
     <>
-      <Navbar/>
+      <Navbar availableBalance={availableBalance}/>
       <Hero/>
 
       <div className='max-w-[1650px] p-2 xl:mt-30 mx-auto flex justify-between items-center'>
@@ -45,7 +47,7 @@ const App = () => {
       {
         toggle === true ?
          <Suspense fallback={"Loading...."}>
-            <AvailablePlayers playersPromise={playersPromise}/>
+            <AvailablePlayers availableBalance={availableBalance} setAvailableBalance={setAvailableBalance} playersPromise={playersPromise}/>
           </Suspense>
           : <SelectedPlayers/>
 

@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Navbar = () => {
+const Navbar = ({availableBalance}) => {
     return (
         <>
         <div className='my-5 lg:mx-20 sm:mx-5 flex justify-between'>
@@ -12,7 +12,9 @@ const Navbar = () => {
                     <a href="/">Team</a>
                     <a href="/">Schedules</a>
                 </ul>
-                <button className='ml-7 px-5 py-2 py- rounded-xl shadow'>0 Coin</button>
+                <button className='ml-7 px-5 py-2 font-semibold rounded-xl shadow'>
+                    {availableBalance} Coin
+                </button>
             </div>
         </div>
         </>
