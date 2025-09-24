@@ -1,0 +1,98 @@
+[
+  {
+    "name": "Tamim Iqbal",
+    "img": "https://example.com/images/tamim-iqbal.jpg",
+    "country": "Bangladesh",
+    "role": "Opening Batter",
+    "rating": 4.5,
+    "price": "95,000 USD"
+  },
+  {
+    "name": "Shakib Al Hasan",
+    "img": "https://example.com/images/shakib-al-hasan.jpg",
+    "country": "Bangladesh",
+    "role": "All-Rounder",
+    "rating": 5.0,
+    "price": "120,000 USD"
+  },
+  {
+    "name": "Andre Russell",
+    "img": "https://example.com/images/andre-russell.jpg",
+    "country": "West Indies",
+    "role": "All-Rounder",
+    "rating": 4.8,
+    "price": "110,000 USD"
+  },
+  {
+    "name": "Liton Das",
+    "img": "https://example.com/images/liton-das.jpg",
+    "country": "Bangladesh",
+    "role": "Wicketkeeper-Batter",
+    "rating": 4.3,
+    "price": "80,000 USD"
+  },
+  {
+    "name": "Mustafizur Rahman",
+    "img": "https://example.com/images/mustafizur-rahman.jpg",
+    "country": "Bangladesh",
+    "role": "Bowler",
+    "rating": 4.6,
+    "price": "85,000 USD"
+  },
+  {
+    "name": "Mushfiqur Rahim",
+    "img": "https://example.com/images/mushfiqur-rahim.jpg",
+    "country": "Bangladesh",
+    "role": "Wicketkeeper-Batter",
+    "rating": 4.4,
+    "price": "75,000 USD"
+  },
+  {
+    "name": "Mahmudullah",
+    "img": "https://example.com/images/mahmudullah.jpg",
+    "country": "Bangladesh",
+    "role": "All-Rounder",
+    "rating": 4.2,
+    "price": "60,000 USD"
+  },
+  {
+    "name": "Shoriful Islam",
+    "img": "https://example.com/images/shoriful-islam.jpg",
+    "country": "Bangladesh",
+    "role": "Bowler",
+    "rating": 4.0,
+    "price": "50,000 USD"
+  },
+  {
+    "name": "Babar Azam",
+    "img": "https://example.com/images/babar-azam.jpg",
+    "country": "Pakistan",
+    "role": "Top Order Batter",
+    "rating": 4.9,
+    "price": "100,000 USD"
+  },
+  {
+    "name": "Sunil Narine",
+    "img": "https://example.com/images/sunil-narine.jpg",
+    "country": "West Indies",
+    "role": "All-Rounder",
+    "rating": 4.7,
+    "price": "90,000 USD"
+  },
+  {
+    "name": "Towhid Hridoy",
+    "img": "https://example.com/images/towhid-hridoy.jpg",
+    "country": "Bangladesh",
+    "role": "Middle Order Batter",
+    "rating": 4.1,
+    "price": "65,000 USD"
+  },
+  {
+    "name": "Rishad Hossain",
+    "img": "https://example.com/images/rishad-hossain.jpg",
+    "country": "Bangladesh",
+    "role": "Bowler",
+    "rating": 3.9,
+    "price": "40,000 USD"
+  }
+]
